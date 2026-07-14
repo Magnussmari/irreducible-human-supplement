@@ -1,0 +1,12 @@
+{
+  "title": "Cross-Tradition Coding Matrix: Nineteen Traditions against Seven Capacities",
+  "description": "Supplementary data for <i>The Irreducible Human</i> (Smarason &amp; Guttesen). The falsifiability artifact behind the book's cross-civilisational convergence claim: nineteen civilisational traditions coded against seven capacity categories, with per-capacity tallies and a table of the excluded candidate capacities. coding-matrix.csv is machine-readable; the README documents method, tallies, exclusions and provenance.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {"name": "Smárason, Magnús", "orcid": "0009-0008-2050-021X"},
+    {"name": "Guttesen, Kristian"}
+  ],
+  "keywords": ["cross-civilisational analysis", "human capacities", "phronesis", "character education", "philosophy of the human condition", "artificial intelligence"]
+}
