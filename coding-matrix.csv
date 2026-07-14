@@ -1,0 +1,21 @@
+tradition,A_foundational_cognitive,B_practical_judgment,C_ethical_moral_formation,D_communicative_competence,E_embodied_tacit,F_critical_evaluation,G_self_knowledge_metacognition
+Mesopotamia,I,I,I,I,P,P,P
+Egypt,I,I,I,I,P,P,I
+Early China (Shang),I,P,P,P,I,-,-
+Classical Greece,I,I,I,I,P,I,I
+Rome,I,I,I,I,P,P,P
+Classical China,I,I,I,I,I,P,P
+Classical India,I,I,I,P,I,I,I
+Islamic Golden Age,I,I,I,I,P,I,I
+Medieval Europe,I,P,I,I,P,I,I
+Tang/Song China,I,P,I,I,P,P,I
+Ming China,I,P,I,I,P,-,I
+Renaissance Europe,I,I,I,I,I,I,I
+Enlightenment,I,I,I,I,P,I,I
+Industrial West,I,-,P,P,-,P,P
+Tokugawa Japan,I,P,I,I,I,P,P
+Mesoamerica (Nahua),I,P,I,I,P,P,P
+African Traditions,I,I,I,I,I,P,P
+Pacific / Oceanian,I,I,P,P,I,P,P
+Practitioner Traditions,I,I,P,P,I,I,I
+I_count,19,12,15,14,8,7,10
