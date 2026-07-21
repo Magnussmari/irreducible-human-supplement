@@ -1,5 +1,10 @@
 # Irreducible Human — Cross-Tradition Coding Matrix (Supplementary Material)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21472630.svg)](https://doi.org/10.5281/zenodo.21472630)
+
+> **Cite this dataset:** Smárason, M. & Guttesen, K. (2026). *Cross-Tradition Coding Matrix: Nineteen Traditions against Seven Capacities* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21472630
+
+
 Citable supplementary data for *The Irreducible Human* (Smárason & Guttesen). The falsifiability artifact behind the book's cross-civilisational convergence claim: nineteen traditions coded against seven capacity categories, with per-capacity tallies, an inter-rater-reliability check, and the excluded candidates.
 
 `coding-matrix.csv` is the machine-readable matrix. The narrative below documents method, tallies, reliability, exclusions, and provenance.
