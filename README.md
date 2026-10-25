@@ -2,32 +2,34 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21472630.svg)](https://doi.org/10.5281/zenodo.21472630)
 
-> **Cite this dataset:** Smárason, M. & Guttesen, K. (2026). *Cross-Tradition Coding Matrix: Nineteen Traditions against Seven Capacities* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21472630
+> **Cite this dataset:** Smárason, M. S., & Guttesen, K. (2026). *Cross-Tradition Coding Matrix: Nineteen Traditions against Seven Capacities* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21472630
 
 
-Citable supplementary data for *The Irreducible Human* (Smárason & Guttesen). The falsifiability artifact behind the book's cross-civilisational convergence claim: nineteen traditions coded against seven capacity categories, with per-capacity tallies, an inter-rater-reliability check, and the excluded candidates.
+Citable supplementary data for *The Irreducible Human* (Smárason & Guttesen). The falsifiability artifact behind the book's cross-civilisational convergence claim: nineteen traditions coded against seven capacity categories, with recurrence and independence tallies, a consistency check, and the excluded candidates.
 
-`coding-matrix.csv` is the machine-readable matrix. The narrative below documents method, tallies, reliability, exclusions, and provenance.
+`coding-matrix.csv` is the machine-readable matrix. The narrative below documents method, tallies, the consistency check, exclusions, and provenance.
 
 ---
 
 # Online Supplementary Material — Cross-Tradition Coding Matrix
 
-**The Irreducible Human** (Smárason & Guttesen). Supplement to Chapter *Synthesis: The Irreducible Core* (@sec-synthesis) and *The Cognitive Threshold* (@sec-cognitive-threshold).
+**The Irreducible Human** (Smárason & Guttesen). Supplement to the chapters *Synthesis: The Irreducible Core* and *The Cognitive Threshold*, and to the book's appendix on the convergence matrix.
 
-This document is the falsifiability artifact behind the book's convergence claim: **nineteen civilisational traditions coded against seven capacity categories**. It exists so a reader can check, cell by cell, the claim that seven capacities recur across independent traditions, and can see which candidate capacities were considered and *excluded*.
+This document is the falsifiability artifact behind the book's convergence claim: **nineteen civilisational traditions coded against seven capacity categories**. It exists so a reader can check, cell by cell, the claim that seven capacities recur across the traditions and how many independent lineages carry each, and can see which candidate capacities were considered and *excluded*.
 
 ## Method (the coding bar)
 
-A capacity is counted as **convergent** only where at least **four independent traditions** institutionalise it, independence judged by separation in geography and chronology and the absence of a known channel of transmission between them. Appearances driven by instrumental rather than intrinsic value were down-weighted, and every retained convergence was passed through an adversarial challenge before it was kept (the challenge and counter-research are preserved in `resources/civilizational-research/12_adversarial_challenge.md` and `13_adversarial_counter_research.md`).
+Nineteen traditions were coded against seven candidate capacities. A capacity counts as **convergent** only where at least **four lineages** in the record institutionalise it independently, independence judged by separation in geography and chronology and the absence of a known channel of transmission between them. Because several rows of the matrix share documented channels of transmission, the bar is applied not to rows but to **lineage clusters** (see the two tallies below). This is the correction known in comparative anthropology as Galton's problem: societies linked by diffusion or common descent are not independent cases (Naroll, 1976; Mace & Pagel, 1994).
 
-The bar is a threshold choice, not a law; the authors concede in the adversarial record that "four and not six" is a stipulation. The five **civilisational constants** named in the print text use a *higher* internal bar (attested in 8+ traditions) and are a subset of the seven capacities below.
+The bar is a threshold choice, not a law; "four and not six" is a stipulation, and the authors say so.
+
+**The corpus coded.** The cells code a research digest assembled for the book from English-language secondary scholarship, in part machine-compiled and then source-checked, not the traditions' primary texts. The matrix is the book's coding of that record, at that remove.
 
 **Coding scale.** For each (tradition × capacity) cell:
 
 - **I** — Institutionalised: the tradition has an explicit institution, practice, canonical text, or named concept cultivating the capacity.
 - **P** — Partial: present but informal, implicit, or contested; no dedicated institution.
-- **—** — Absent or unattested in the record for that tradition (in some cases, as with the Industrial West, actively eroded rather than merely absent).
+- **–** — Absent or unattested in the record consulted. For Early China (Shang) the record is largely epigraphic (oracle-bone and bronze inscriptions), so its dashes mark the limits of what that record can show rather than a coded judgment of absence. For the Industrial West the dashes record erosion rather than mere absence.
 
 ## The seven capacities
 
@@ -45,7 +47,7 @@ The bar is a threshold choice, not a law; the authors concede in the adversarial
 |---|-----------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 1 | Mesopotamia | I | I | I | I | P | P | P |
 | 2 | Egypt | I | I | I | I | P | P | I |
-| 3 | Early China (Shang) | I | P | P | P | I | — | — |
+| 3 | Early China (Shang) | I | P | P | P | I | – | – |
 | 4 | Classical Greece | I | I | I | I | P | I | I |
 | 5 | Rome | I | I | I | I | P | P | P |
 | 6 | Classical China | I | I | I | I | I | P | P |
@@ -53,59 +55,66 @@ The bar is a threshold choice, not a law; the authors concede in the adversarial
 | 8 | Islamic Golden Age | I | I | I | I | P | I | I |
 | 9 | Medieval Europe | I | P | I | I | P | I | I |
 | 10 | Tang/Song China | I | P | I | I | P | P | I |
-| 11 | Ming China | I | P | I | I | P | — | I |
+| 11 | Ming China | I | P | I | I | P | – | I |
 | 12 | Renaissance Europe | I | I | I | I | I | I | I |
 | 13 | Enlightenment | I | I | I | I | P | I | I |
-| 14 | Industrial West | I | — | P | P | — | P | P |
+| 14 | Industrial West | I | – | P | P | – | P | P |
 | 15 | Tokugawa Japan | I | P | I | I | I | P | P |
 | 16 | Mesoamerica (Nahua) | I | P | I | I | P | P | P |
 | 17 | African Traditions | I | I | I | I | I | P | P |
 | 18 | Pacific / Oceanian | I | I | P | P | I | P | P |
-| 19 | Practitioner Traditions | I | I | P | P | I | I | I |
+| 19 | Practitioner Traditions (modern check-row) | I | I | P | P | I | I | I |
 
-## Tallies — does each capacity clear the bar?
+Row 19, "Practitioner Traditions", is not a civilisational lineage but modern professional practice. It is retained as a check-row, showing that the capacities recur where formation is still institutionalised today; it sits inside the European transmission chain and contributes nothing to the independence tally.
 
-Count of traditions institutionalising (**I**) each capacity, out of 19. The convergence bar is 4.
+## Two tallies: recurrence and independence
 
-| Capacity | I count | Clears bar (≥4)? | Note |
-|----------|:-------:|:----------------:|------|
-| A Foundational Cognitive | 19 | Yes | Universal; every literate or oral-transmission tradition institutionalises it |
-| C Ethical / Moral Formation | 15 | Yes | Strongest of all; near-universal |
-| D Communicative Competence | 14 | Yes | Strong |
-| B Practical Judgment / Phronesis | 12 | Yes | Strong; the Industrial West is the one erosion case (—) |
-| G Self-Knowledge / Metacognition | 10 | Yes | Strong |
-| E Embodied / Tacit Knowledge | 8 | Yes | **Thinnest and most frame-sensitive** (see excluded candidate (c)); craft/practitioner-weighted |
-| F Critical Evaluation | 7 | Yes | Clears the historical bar; carried additionally by the modern empirical record |
+The nineteen rows are not nineteen independent observations. Eight of them (Classical Greece through the modern practitioner traditions) form one documented transmission chain; five (Shang China through Tokugawa Japan) form a second; Mesopotamia and Egypt were in continuous contact. Grouped by known channels of transmission, the rows yield **seven lineage clusters**: the Ancient Near East; the Greco-Mediterranean-European chain; the Sinitic-East Asian chain; Classical India (retained as independent because the institutions coded predate the Hellenistic exchange, a judgment call flagged rather than buried); Mesoamerica; the African traditions; and the Pacific and Oceanian traditions. The last two are coarse aggregates and their weight is discounted accordingly. A cluster counts as institutionalising a capacity where any tradition within it does.
 
-All seven clear the four-tradition bar. **E (8) and F (7) are the thinnest**, and are the honest soft points a critic should press first. The Industrial West is coded as a deficit case (B and E marked —), consistent with the book's thesis that industrialism separated skill from judgment; Ming China's F is — because its examination system actively narrowed source-critical judgment to a single canonised commentary.
+| Capacity | Rows (of 19) | Independent clusters (of 7) | Clears the four-cluster bar? |
+|----------|:------------:|:---------------------------:|------------------------------|
+| A Foundational cognitive | 19 | 7 | Yes |
+| B Practical judgment | 12 | 6 | Yes, and still four on the well-documented clusters alone |
+| C Ethical and moral formation | 15 | 6 | Yes |
+| D Communicative competence | 14 | 5 | Yes, at four without the African aggregate |
+| E Embodied and tacit knowledge | 8 | 3 (5 with both aggregate rows at full weight) | Only if both aggregate rows carry full weight; three otherwise |
+| F Critical evaluation | 7 | 2 | No |
+| G Self-knowledge and metacognition | 10 | 4 | At the bar exactly, with no slack |
+
+**Five of the seven capacities clear the independence bar.** Critical evaluation does not: six of its seven institutionalisations lie on one transmission chain (Greek dialectic, the Islamic translation movement, scholastic, Renaissance and Enlightenment Europe), and the seventh is Classical India. A reader who counts the Islamic isnād criticism and *ʿilm al-rijāl* as a partially independent institutionalisation would raise it to three clusters; the table reports the conservative placement. Embodied and tacit knowledge stands at three well-documented clusters; disaggregating the African and Pacific rows into named traditions might restore it, which would be research work rather than a footnote. The row count measures how often the record returns to a capacity; the cluster count measures how many times it was discovered separately. The Industrial West is coded as a deficit case (B and E marked –), an erosion measured against its own ancestors inside one lineage and untouched by the independence correction.
 
 ## Excluded candidates (what did NOT make the seven)
 
-Candidate capacities considered and set aside, each because it appears in essentially a single lineage, reduces to a variant of an existing capacity, or is an artefact of a coding frame built largely from literate traditions. Sources are the adversarial research files.
+Candidate capacities considered and set aside, each because it appears in essentially a single lineage, reduces to a variant of an existing capacity, or is an artefact of a coding frame built largely from literate traditions.
 
 | Candidate | Lineage / count | Why excluded | Source |
 |-----------|-----------------|--------------|--------|
-| Obedience-conditioning (Spartan *agoge*) | One (Sparta) | A rival *theory* of moral formation, not a distinct capacity; reduces to a variant of **C** | `12_adversarial_challenge.md`; `13_adversarial_counter_research.md` |
-| Enforcement-through-law / rule-based statecraft (Chinese Legalism, Qin) | One full implementation (Qin) | Deliberate outlier that abandoned moral formation and collapsed within ~15 years; confirmatory of **C**, not additive | `12_adversarial_challenge.md`; `13_adversarial_counter_research.md` |
-| Elaborate cosmological / genealogical knowledge (Polynesian cosmology, griot genealogy) | A few oral traditions, heterogeneous | Real content that the seven-slot frame (derived from literate traditions) has no convergent slot for; the coding-frame artefact case, and the reason **E** is frame-sensitive | `12_adversarial_challenge.md` |
-| Rhetoric-as-competitive-skill (Sophist model) | One (Greek Sophists) | Single-lineage; folds back into **D** (Communicative Competence) once character is re-included | `12_adversarial_challenge.md`; `13_adversarial_counter_research.md` |
-| Rote memorisation as an end in itself | Several, as a means | Down-weighted to an instrument of **A** and **G** (the memorisation *was* the formation), not retained as a distinct capacity | `11_synthesis.md`; `14_ultimate_synthesis.md` |
+| Obedience-conditioning (Spartan *agoge*) | One (Sparta) | A rival *theory* of moral formation, not a distinct capacity; reduces to a variant of **C** | adversarial research record |
+| Enforcement-through-law / rule-based statecraft (Chinese Legalism, Qin) | One full implementation (Qin) | Deliberate outlier that abandoned moral formation and collapsed within ~15 years; confirmatory of **C**, not additive | adversarial research record |
+| Elaborate cosmological / genealogical knowledge (Polynesian cosmology, griot genealogy) | A few oral traditions, heterogeneous | Real content that the seven-slot frame (derived from literate traditions) has no convergent slot for; the coding-frame artefact case, and the reason **E** is frame-sensitive | adversarial research record |
+| Rhetoric-as-competitive-skill (Sophist model) | One (Greek Sophists) | Single-lineage; folds back into **D** (Communicative Competence) once character is re-included | adversarial research record |
+| Rote memorisation as an end in itself | Several, as a means | Down-weighted to an instrument of **A** and **G** (the memorisation *was* the formation), not retained as a distinct capacity | adversarial research record |
 
 Contemplative/mystical self-observation is **not** an excluded candidate: it was absorbed into **G** (via Sufi *muraqaba*, Vedanta, Wang Yangming) rather than dropped.
 
-## Inter-rater reliability
+## Consistency check (not an inter-rater reliability statistic)
 
-To check that the matrix reflects the evidence rather than one coder's idiosyncrasy, a second coder coded all nineteen traditions against all seven capacities independently, working from the same primary research files without sight of the coding above. Agreement across the 133 cells:
+Both codings were produced by AI systems operated under the method described in the book's methodology chapter: the second coding was produced by agents working from the same research digest without sight of the first. Because contemporary models share much of their training corpora, the two coders are not independent raters, and shared systematic bias would inflate observed agreement while a chance-correction term assumes it away. Only raw percent agreement is therefore reported, and no chance-corrected reliability claim is made:
 
-- **Three-way agreement (I / P / —): 86.5 per cent** (115 of 133 cells), Cohen's kappa = **0.71** (substantial agreement).
-- **Binary agreement (I versus not-I, the decision that determines which capacities clear the four-tradition bar): 88.7 per cent** (118 of 133), Cohen's kappa = **0.75** (substantial agreement).
+- **Three-way agreement (I / P / –): 87 per cent** of the 133 cells (115 of 133).
+- **Binary agreement (I versus not-I): 89 per cent** (118 of 133).
 
-Per-capacity three-way agreement: A 89%, B 84%, C 89%, D 84%, E 89%, F 89%, G 79%. Self-Knowledge and Metacognition (G) is the noisiest capacity to code, which is unsurprising, since it is the most interpretive.
-
-The eighteen disagreements fall almost entirely on the **institutionalised-versus-partial (I/P) boundary** rather than on presence-versus-absence, and, decisively for the convergence claim, **none of them drops a capacity below the four-tradition bar under either coder**. Both independent codings return the same seven convergent capacities, with embodied/tacit knowledge (E) and critical evaluation (F) the thinnest under both. A kappa in the 0.71 to 0.75 range is what honest independent coding of contested cross-tradition material produces; it is reported here rather than smoothed toward a suspicious near-unity, and the full second coding is available on request for anyone who wishes to audit individual cells.
+The disagreements fall almost entirely on the institutionalised-versus-partial boundary. These figures measure the consistency with which the coding scheme can be applied, not the validity of the cells. A human coding of the cells, even of a sample, would strengthen this apparatus, and the authors say so plainly. The second coding is available from the authors on request.
 
 ## Provenance and limits
 
-The coding above synthesises the primary research compiled in `resources/civilizational-research/` (fifteen files: era studies, non-Western and practitioner studies, an adversarial challenge, a counter-research pass, and two syntheses) and the machine-readable ontology `HUMAN_knowledge-graph.jsonld` (19 traditions, 7 capacity categories, 34 sub-capacities, 5 constants). It is the authors' reading of that record, produced under the evidence-driven method described in the book's methodology chapter, not a neutral finding standing outside interpretation. The cells reflect what the research record attests; where the record is thin (e.g. Tokugawa B/F/G, the oral traditions' F/G), cells are marked P rather than inflated to I.
+The coding synthesises the research digest compiled for the book (era studies, non-Western and practitioner studies, an adversarial challenge, a counter-research pass, and two syntheses), held by the authors and available on request. It is the authors' reading of that record, not a neutral finding standing outside interpretation. Where the record is thin (e.g. Tokugawa B/F/G, the oral traditions' F/G), cells are marked P rather than inflated to I.
 
-Corrections and challenges to individual cells are welcome and are exactly the point of publishing the matrix: the claim is now checkable cell by cell.
+The roster of traditions is a coverage sample of the record assembled for the book, not a stratified sample of the record that exists. The rabbinic tradition and Buddhist monastic education are absent; on the capacities they most conspicuously institutionalised, critical evaluation above all, their inclusion would more likely raise the counts than lower them.
+
+Corrections and challenges to individual cells are welcome and are the point of publishing the matrix: the claim is checkable cell by cell.
+
+## References
+
+- Mace, R., & Pagel, M. (1994). The comparative method in anthropology. *Current Anthropology*, 35(5), 549–564.
+- Naroll, R. (1976). Galton's problem and HRAFLIB. *Behavior Science Research*, 11(2), 123–148.

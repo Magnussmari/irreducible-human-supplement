@@ -1,12 +1,26 @@
 {
   "title": "Cross-Tradition Coding Matrix: Nineteen Traditions against Seven Capacities",
-  "description": "Supplementary data for <i>The Irreducible Human</i> (Smarason &amp; Guttesen). The falsifiability artifact behind the book's cross-civilisational convergence claim: nineteen civilisational traditions coded against seven capacity categories, with per-capacity tallies and a table of the excluded candidate capacities. coding-matrix.csv is machine-readable; the README documents method, tallies, exclusions and provenance.",
+  "description": "Supplementary data for <i>The Irreducible Human</i> (Smárason &amp; Guttesen). The record behind the book's cross-civilisational convergence claim: nineteen traditions (eighteen civilisational, one modern check-row) coded against seven capacity categories, with recurrence and independence tallies (five of the seven capacities clear the four-lineage bar), a consistency check between two AI codings, and a table of the excluded candidate capacities. coding-matrix.csv is machine-readable; the README documents method, tallies, the consistency check, exclusions and provenance, aligned with the printed appendix.",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
   "creators": [
-    {"name": "Smárason, Magnús", "orcid": "0009-0008-2050-021X"},
-    {"name": "Guttesen, Kristian"}
+    {
+      "name": "Smárason, Magnús Smári",
+      "orcid": "0009-0008-2050-021X"
+    },
+    {
+      "name": "Guttesen, Kristian",
+      "orcid": "0000-0002-4031-689X"
+    }
   ],
-  "keywords": ["cross-civilisational analysis", "human capacities", "phronesis", "character education", "philosophy of the human condition", "artificial intelligence"]
+  "keywords": [
+    "cross-civilisational analysis",
+    "human capacities",
+    "phronesis",
+    "character education",
+    "philosophy of the human condition",
+    "artificial intelligence"
+  ],
+  "version": "1.3.0"
 }
