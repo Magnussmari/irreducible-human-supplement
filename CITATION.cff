@@ -1,14 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this supplementary matrix, please cite it as below."
 title: "Cross-Tradition Coding Matrix: Nineteen Traditions against Seven Capacities"
-abstract: "Supplementary data for The Irreducible Human (Smarason & Guttesen): the falsifiability artifact behind the book's cross-civilisational convergence claim. Nineteen civilisational traditions coded against seven capacity categories, with per-capacity tallies and a table of excluded candidate capacities."
+abstract: "Supplementary data for The Irreducible Human (Smárason & Guttesen): the record behind the book's cross-civilisational convergence claim. Nineteen traditions (eighteen civilisational, one modern check-row) coded against seven capacity categories, with recurrence and independence tallies and a table of excluded candidate capacities."
 type: dataset
 authors:
   - family-names: "Smárason"
-    given-names: "Magnús"
+    given-names: "Magnús Smári"
     orcid: "https://orcid.org/0009-0008-2050-021X"
   - family-names: "Guttesen"
     given-names: "Kristian"
+    orcid: "https://orcid.org/0000-0002-4031-689X"
+version: "1.3.0"
 year: 2026
 license: CC-BY-4.0
 keywords:
